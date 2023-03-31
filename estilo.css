@@ -1,0 +1,65 @@
+/* DOCUMENTO CSS */
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Roboto Mono', monospace;
+	background-image: url("imagens/fundo.jpg");
+	background-size: cover;
+	
+}
+header {
+	background-image: url("imagens/fundo2.jpg");
+	background-size: cover;
+    height: 100px;
+    padding-top: 25px;
+	color: ;
+    text-align: center;
+    background-image: linear-gradient(to left,#9E0009,#CC0A00,#EB1B00,#FF1403);
+           border-radius: 20px;
+}
+main {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+	flex-wrap: wrap;
+	align-content: center;
+
+}
+.box{width: 250px;
+	height: 480px;
+	background-color: #F05B02aa;
+	border-radius: 10px;
+	padding: 10px;
+	color:black;
+	text-align: center;
+	margin: 10px;
+}
+.box:hover{
+	box-shadow: 10px 10px 15px #F00000;
+	background-color: #C90000;
+}
+.box h2{
+	margin:0 0 10px 0;
+	padding: 0;
+
+} 
+.box figure{width: 250px;
+	height: 300px;
+	background-color: #e6e6e6;
+	margin: 0;
+	padding: 0;
+	border-radius: 10px;
+}
+.box p {
+}
+footer{
+	background-color: #9E0009; 
+	height: 70px;
+	padding-top: 10px;
+	color: black;
+	text-align: center;
+}
